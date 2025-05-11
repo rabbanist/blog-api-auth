@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\V1;
 
-use App\Http\Requests\StorePostRequest;
-use App\Http\Requests\UpdatePostRequest;
+use App\Http\Requests\V1\StorePostRequest;
+use App\Http\Requests\V1\UpdatePostRequest;
 use App\Models\Post;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\PostResource;
